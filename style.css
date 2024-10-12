@@ -1,0 +1,27 @@
+h1{color:blueviolet;
+text-align: center;}
+body{
+background-color:azure;}
+section{color:brown;}
+footer{color:blue;
+size: 34px;}
+/* Make the images round */
+img {
+    border-radius: 10%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect for clickability */
+img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+}
+
+/* Ensure images are clickable */
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+p{text-decoration: none;}
+div{color:rgb(22, 180, 127);}
